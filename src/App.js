@@ -79,11 +79,11 @@ function App() {
   
   const [title,setTitle] = useState('');
   const [message,setMessage] = useState('');
-  messaging.onMessage( res => {
-    console.log(res);
-    setTitle(res.notification.title);
-    setMessage(res.notification.message);
-  })
+  // messaging.onMessage( res => {
+  //   console.log(res);
+  //   setTitle(res.notification.title);
+  //   setMessage(res.notification.message);
+  // })
   const [show,setShow] = useState(false);
   
 
